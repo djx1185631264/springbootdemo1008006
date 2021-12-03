@@ -21,4 +21,6 @@ public class User {
     private String name;
     @Column(name = "age",nullable = true,length = 3)
     private Integer age;
+     @Column(name = "color",nullable = true,length = 3)
+    private String color;
 }
